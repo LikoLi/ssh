@@ -80,7 +80,9 @@
 ## Spring 分模块开发
 1. 在Spring里面配置多个内容, 造成配置混乱, 不利于维护.
 2. 把Spring核心配置文件中, 一部分配置 放到单独的配置文件中, 在Spring核心配置文件中引入单独配置文件
-	- <import resource="classpath:user.xml"/>
+	```
+	 <import resource="classpath:user.xml"/>
+	```
 
 		
 		
